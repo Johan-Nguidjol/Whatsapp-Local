@@ -1,0 +1,7 @@
+.vs/
+**/bin/
+**/obj/
+ChatLocal/artifacts/
+vlc-help.txt
+*.user
+*.suo

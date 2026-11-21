@@ -1,0 +1,31 @@
+CHAT LOCAL / WHATSAPP LOCAL v2.5 - Messagerie P2P en réseau local (WPF / .NET 10)
+
+FONCTIONNALITÉS AJOUTÉES :
+1. Écran de verrouillage / Sécurité au démarrage :
+   - Choix entre Code PIN (4 chiffres avec pavé tactile/clavier) et Face ID (numérisation biométrique animée).
+   - Sécurisation des codes avec PBKDF2 (SHA-256 + sel).
+2. Appels Audio et Vidéo P2P :
+   - Boutons d'appel audio (📞) et vidéo (📹) dans la barre de discussion.
+   - Écran complet d'appel : sonnerie, durée, flux vidéo simulé, contrôles micro/caméra/raccrocher.
+   - Journalisation automatique des appels dans la discussion.
+3. Messages Vocaux (Voices) :
+   - Enregistrement audio via microphone avec chronomètre et bouton annuler/envoyer.
+   - Lecteur audio intégré dans la bulle de chat avec bouton lecture/pause et barre de progression.
+4. Palette d'Emojis :
+   - Menu d'emojis complet classé par catégories (Sourires, Gestes, Cœurs, Objets).
+5. Partage et Visionneuse de Photos :
+   - Envoi de photos compressées optimisées.
+   - Visionneuse plein écran (Lightbox) en cliquant sur une photo.
+6. Messages à Vue Unique (View Once) :
+   - Bascule 1× pour envoyer des photos ou textes éphémères.
+   - Visionneuse sécurisée avec compte à rebours de 10 secondes.
+   - Destruction définitive après lecture et statut « Ouvert ».
+7. Statuts (Stories) :
+   - Statuts texte (avec choix des couleurs) et statuts photo.
+   - Visionneur plein écran avec progression par segments, réactions et réponses privées.
+
+POUR LANCER :
+  cd ChatLocal
+  dotnet build
+  .\bin\Debug\net10.0-windows\ChatLocal.exe Orlana
+  .\bin\Debug\net10.0-windows\ChatLocal.exe Paul

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>ChatLocal</RootNamespace>
+    <AssemblyName>ChatLocal</AssemblyName>
+    <ApplicationIcon>Assets\WhatsApp.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DirectShowLib.Net" Version="3.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\MetaAi.png" />
+    <Resource Include="Assets\WhatsApp.png" />
+    <Resource Include="Assets\WhatsApp.ico" />
+  </ItemGroup>
+</Project>
